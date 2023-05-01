@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVIGATION BAR */
+
+nav {
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    color: #000
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 18px;
+}
+#navigation {
+    min-height: 6vh;
+    background-color: whitesmoke;
+}
+/* BACKGROUP IMAGE */
+.containerone{
+    background-image: url("./images/vladimir-yelizarov-PfbItsR8Gqo-unsplash-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 20%;
+    /* background-attachment: fixed; */
+    height: 100vh;
+
+}
+#texthead {
+    color: whitesmoke;
+    text-align: right;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 10%;
+}
+/* BUTTONONE */
+.btnsectionone {
+    padding: 20px 18px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-top: 8%;
+}
+#Discover {
+    border: 2px solid #EA7F8B;
+    color: whitesmoke;
+    background-color: #EA7F8B;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px 68px;
+}
+/* next page */
+#top h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+#top h1 {
+    text-align: center;
+    padding-top: 30px;
+    /* border: 2px solid black; */
+}
+#boxmodel {
+    display: flex;
+    /* box-sizing: border-box 20px; */
+    /* box-shadow: #EA7F8B; */
+}
+div {
+    box-shadow: #EA7F8B;
+}
+/*  */
+h3 {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    padding-left: 20px;
+}
+/* second button */
+.btnsectiontwo {
+    padding: 20px 18px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 8%;
+}
+#view {
+    border: 2px solid #EA7F8B;
+    color: whitesmoke;
+    background-color: #EA7F8B;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 20px 68px;
+}
+ 
+.containerthree {
+    display: flex;
+    padding-left: 90px;
+
+}
+h2 {
+    position: absolute;
+    margin-bottom: -60%;
+    padding-bottom: 15%;
+    text-align: center;
+    color: #A83648;
+    /* text-align: 50px; */
+}
+.btnsectionfour {
+    padding: 20px 18px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    /* text-align: center; */
+    padding-top: 8%;
+}
+#shop {
+    border: 2px solid #EA7F8B;
+    color: whitesmoke;
+    background-color: #EA7F8B;
+    font-weight: bold;
+    padding: 15px 30px;
+    /* text-align: center; */
+}
+/*  */
+.Text {
+    text-align: center;
+    /* height: 40vh; */
+    padding-bottom: 50px;
+}
+#welcome {
+    color: grey;
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 10%;
+}
+#label {
+    padding-top: 20px;
+    font-style: inherit;
+    font-size: 40px;
+}
+#aguste {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #737373;
+    font-style: initial;
+}
+.lastpic {
+    background-image: url("./images/tamara-bellis-68csPWTnafo-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100%; */
+    /* height: 95vh; */
+    padding-bottom: 40%;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+#about {
+    padding-top: 10%;
+    font-size: 20px;
+    font-style: oblique;
+    color: #737373;
+}
+#the {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #737373;
+}
+#list {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 10%;
+    font-size: 20px;
+    color: #737373;
+}
+
+#sideone {
+    padding-left: 10px;
+}
+#letter {
+    padding-top: 10%;
+    color: #737373;
+}
+#news {
+    padding-bottom: 20px;
+}
+.btnsectionfive {
+    padding: 20px 18px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    /* text-align: center; */
+    padding-top: 18%;
+}
+#emailone {
+    border: 2px solid #737373;
+    color:#737373;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 15px 90px;
+    /* text-align: center; */
+}
+.btnsectionfive {
+    padding: 20px 18px;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    /* text-align: center; */
+    padding-top: 8%;
+}
+#emailtwo {
+    border: 2px solid #EA7F8B;
+    color:#737373;
+    background-color:#A83648;
+    font-weight: bold;
+    padding: 18px 50px;
+    /* text-align: center; */
+}
